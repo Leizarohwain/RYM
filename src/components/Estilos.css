@@ -1,0 +1,206 @@
+body{
+  padding: 0%;
+  margin: 0%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../imagenes/Rym.jpg);
+  min-height: 100vh;
+  background-position: bottom;
+}
+.form {
+  height: 28%;
+  background: linear-gradient(to right, rgba(22, 166, 218, 0.875), black);;
+  border: 4px double white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 400px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-input {
+  width: 90%;
+  box-sizing: border-box;
+}
+
+
+.login { 
+  background-color: aqua;
+  height: 30px;
+  width: 30%;
+  border-radius: 5px;
+  }
+
+.login:hover {
+  background-color:#1E90FF ; /* Nuevo color celeste al hacer hover */
+}
+
+.about{
+  text-align:left;
+  text-justify:center;
+  font:icon;
+  color: white;
+  font-size: 1.5vw;
+  height: 200px;
+  width: 500px;
+  margin: 70px;
+  padding: 0%;
+
+}
+
+/* Estilos para el Navbar */
+.navbar {
+  background-color: transparent;
+  padding: 5px;
+  height: 45px;
+  text-align:center;
+  border-bottom: 3px dashed white;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 80%; /* Ajusta el valor según el ancho que desees */
+  margin: 0 auto; /* Centra el navbar en pantalla */
+}
+
+/* Estilos para los links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  text-justify:center;
+  font: icon ;
+  font-size: 2vw;
+  margin-left: 10px; /* Ajusta el espacio entre los links */
+}
+
+nav a:hover {
+  color: rgb(61, 85, 158); /* color al situar el mouse por encima */
+}
+
+/* Estilos para el input */
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color:rgb(61, 85, 158); /* Color celeste */
+  color: black; /* Texto en color blanco */
+  border: none; /* Sin bordes */
+  padding: 10px 20px; /* Espacio interno de relleno */
+  cursor: pointer; /* Cambia a una mano al estar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  font:message-box
+}
+
+.btn:hover {
+  background-color:aqua ; /* Nuevo color celeste al hacer hover */
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  background: linear-gradient(to right, rgba(22, 166, 218, 0.875), white);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777777;
+}
+
+.card img {
+  width: 90%;
+  height: 100%;
+  transition: transform 0.3s;
+  position:center;
+}
+
+.cards {
+  display: flex;
+  max-width: 70%;
+  flex-wrap: wrap;
+}
+
+.detalle {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-cerrar {
+  background: red;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-corazon {
+  background: rgb(8, 99, 132);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-cerrar {
+  opacity: 0; /* Inicialmente, el elemento estará oculto */
+  transition: opacity 0.3s; /* Aplicamos una transición suave para que el elemento aparezca suavemente */
+}
+
+.btn-cerrar:hover {
+  opacity: 1; /* Cuando el mouse se acerque al elemento, se mostrará con una opacidad de 1 */
+}
+
+.fav {
+  width: 300%;
+  height: 100%;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  max-width: 70%;
+  flex-wrap: wrap;
+}
+
+.fav img {
+  width: 95%;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.det{
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 300px;
+  height: 100%;
+   width: 40%;
+   transition: transform 0.3s;
+   margin-left: 300px;
+   margin-top: 30px;
+   background: linear-gradient(to right, rgba(22, 166, 218, 0.875), white);
+}
+
+.det:hover img {
+transform: scale(1.1);
+}
+
+.det:hover img {
+transform: scale(1.1);
+}
